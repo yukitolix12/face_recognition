@@ -2,3 +2,5 @@
 
 const video = document.getElementById("myvideo");
 const canvas = document.getElementById("mycanvas");
+
+let model;
