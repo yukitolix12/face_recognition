@@ -6,7 +6,9 @@ const canvas = document.getElementById("mycanvas");
 let model;
 
 const options = {
-    
+    flipHorizonal: false,
+    maxNumBoxes: 3,
+    scoreThreshold: 0.7,
 }
 
 handTrack.load(options).then(function(modelData){
