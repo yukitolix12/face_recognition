@@ -1,1 +1,1 @@
-console.log(handTrack);
+//console.log(handTrack);
