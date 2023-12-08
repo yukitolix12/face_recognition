@@ -5,4 +5,6 @@ const canvas = document.getElementById("mycanvas");
 
 let model;
 
-handTrack.load(options).then()
+handTrack.load(options).then(function(modelData){
+    model = modelData;
+});
