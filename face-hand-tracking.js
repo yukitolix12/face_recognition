@@ -17,6 +17,6 @@ handTrack.load(options).then(function(modelData){
 
     //webカメラを起動する。
     handTrack.startVideo(video).then(function(status)
-    
+        if(status) {}
     )
 });
