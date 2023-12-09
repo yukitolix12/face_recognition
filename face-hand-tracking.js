@@ -28,5 +28,7 @@ handTrack.load(options).then(function(modelData){
 
 function startDetection()
 {
-    
+    model.detect(video).then((predictions) => {
+        
+    })
 }
