@@ -25,3 +25,8 @@ handTrack.load(options).then(function(modelData){
         }
     });
 });
+
+function startDetection()
+{
+    
+}
