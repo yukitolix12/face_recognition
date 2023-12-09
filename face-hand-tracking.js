@@ -9,7 +9,9 @@ const options = {
     flipHorizontal: false,
     maxNumBoxes: 3,
     scoreThreshold: 0.7,
-}
+};
+
+let context = canvas.getContext("2d");
 
 handTrack.load(options).then(function(modelData){
     model = modelData;
