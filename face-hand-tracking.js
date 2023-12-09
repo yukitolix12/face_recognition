@@ -6,7 +6,7 @@ const canvas = document.getElementById("mycanvas");
 let model;
 
 const options = {
-    flipHorizonal: false,
+    flipHorizontal: false,
     maxNumBoxes: 3,
     scoreThreshold: 0.7,
 }
