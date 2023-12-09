@@ -19,6 +19,7 @@ handTrack.load(options).then(function(modelData){
     handTrack.startVideo(video).then(function(status){
         if(status) {
             console.log(status);
+            startDetection();
         } else {
             console.log("failed");
         }
