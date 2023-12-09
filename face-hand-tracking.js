@@ -32,5 +32,7 @@ function startDetection()
 {
     model.detect(video).then((predictions) => {
         model.renderPreDictions(predictions, canvas, context, video);
-    })
+
+        requestAnimationFrame(startDetection);
+    });
 }
